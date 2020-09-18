@@ -1,0 +1,154 @@
+// Utilities
+@import "../../utilities/named_variables.scss";
+
+.main-wrapper{
+margin-left: 30%;
+padding: 1%;
+border:1px solid $main-border-color;
+width: 40%;
+display: grid;
+
+hr{
+opacity: 0.2;
+margin-bottom: 2%;
+}
+}
+
+.over-grid{
+display: grid;
+grid-template-columns: 90% 10%;
+width: 100%;
+}
+
+.centered{
+text-align: center;
+}
+
+.images-grid{
+display: grid;
+grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+grid-gap: 10px;
+img{
+background-color: $figure-bg-color;
+width: 300px;
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+.pricemenu{
+width: 300px;
+height: 300px;
+margin-left: 10%;
+width: 13vw;
+min-height: 30vh;
+height: auto;
+position: absolute;
+top: 270px;
+left: 70%;
+margin-bottom: 10%;
+border:1px solid $main-border-color;
+
+p{
+padding: 10%;
+}
+
+.change-quantity{
+width: 30px;
+height: 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+}
+
+.buybutton{
+width: 100px;
+height: 30px;
+background-color: $button-pink-color;
+color: white;
+border: none;
+border-radius: 5px;
+margin-left: 2%;
+margin-right: 2%;
+cursor: pointer;
+outline: none;
+}
+
+}
+
+.img-move{
+padding-top: 40%;
+height: 50px;
+width: 13vw;
+
+img{
+width: 100vw;
+}
+}
+
+.price-border{
+border: 2px solid $main-border-color;
+border-radius: 15px;
+width: 150px;
+margin: 0 auto;
+margin-bottom: 7%;
+margin-top: 7%;
+}
+
+.ratings{
+display: block;
+margin: 0 auto;
+width: 150px;
+height: 30px;
+text-align-last: center;
+margin-bottom: 4%;
+}
+
+.placeholderimg{
+width: 10vw;
+height: 10vw;
+}
+
+.placeholderimg-brand{
+width: 100%;
+height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .main-wrapper{
+    margin-left: 5%;
+    width: 61%;
+    }
+
+    .centered{
+    display: block;
+    }
+
+    .pricemenu{
+    width: 25vw;
+    left: 60%;
+    margin-bottom: 25%;
+    }
+
+    .ratings{
+    width: 100px;
+    }
+
+    .price-border{
+    width: 100px;
+    }
+    .img-move{
+    padding-top: 40%;
+    width: 250px;
+    height: 50px;
+    width: 25vw;
+
+    img{
+    width: 100vw;
+    }
+    }
+}

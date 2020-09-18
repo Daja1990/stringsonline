@@ -1,0 +1,18 @@
+// Utilities
+@import "../utilities/named_variables.scss";
+
+.navbox{
+background-color: $nav-color;
+position: relative;
+width: 100%;
+padding-top: 2%;
+padding-bottom: -20px;
+}
+
+@media screen and (max-width: 992px) {
+
+.navbox{
+display: none;
+}
+
+}

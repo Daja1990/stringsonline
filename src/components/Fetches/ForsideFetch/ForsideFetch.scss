@@ -1,0 +1,103 @@
+// Utilities
+@import "../../utilities/named_variables.scss";
+
+.forsidefetchwrap{
+padding-left: 24%;
+display: grid;
+grid-template-columns: 50% 50%;
+
+.forside-grid-items{
+border:1px solid $main-border-color;
+display: grid;
+grid-template-columns: 1fr 2fr;
+margin-bottom: 20px;
+color: $main-breadtxt-color;
+padding: 20px;
+font-size: 10pt;
+display: block;
+width: 70%;
+
+figure{
+    position: relative;
+    padding: 20%;
+    margin-bottom: 10%;
+    width: 60%;
+    background-color: $figure-bg-color;
+    margin:0;
+    img {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        background:$figure-bg-color;
+    }
+}
+
+// Tilføj til kurv knap
+.fpbuy{
+width: 100px;
+height: 30px;
+color: $button-txt-color;
+border: none;
+border-radius: 5px;
+margin-top: 2%;
+cursor: pointer;
+outline: none;
+background-color: $button-pink-color;
+}
+
+.grid-header{
+color:$main-text-color;
+font-size: 16px;
+}
+
+.img-scale{
+max-height: 250px;
+padding: 30px;
+background: $figure-bg-color;
+box-sizing: border-box;
+width: 100%;
+}
+
+.product-title{
+text-align: left;
+display: inline;
+}
+
+.direct-link{
+text-decoration: none;
+color: $green-main-color;
+}
+}
+}
+
+@media screen and (max-width: 992px) {
+
+    .forsidefetchwrap{
+    padding-left: 25%;
+    grid-template-columns: 100%;
+    }
+
+    .forside-grid-items{
+    display: block;
+    width: 100%;
+
+        figure{
+        padding: 20%;
+        margin-bottom: 10%;
+        width: 60%;
+
+        img{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+         margin-right: auto;
+        }
+        }
+    }
+    }

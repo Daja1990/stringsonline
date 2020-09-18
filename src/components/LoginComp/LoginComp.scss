@@ -1,0 +1,68 @@
+// Utilities
+@import "../utilities/named_variables";
+
+.login-p{
+font-size: 20px;
+text-align: center;
+}
+
+.logout-button{
+width: 120px;
+height: 40px;
+margin-top: 1%;
+margin-bottom: 1%;
+border-radius: 5px;
+display: block;
+background-color: $green-main-color;
+cursor: pointer;
+outline: none;
+border: none;
+font-size: 18px;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.loginwrap{
+margin: 0 auto;
+padding-top: 2%;
+}
+
+.loggedin{
+margin-top: 2%;
+}
+
+.login-button{
+width: 120px;
+height: 40px;
+margin-top: 1%;
+margin-bottom: 1%;
+border-radius: 5px;
+display: block;
+background-color: $green-main-color;
+cursor: pointer;
+outline: none;
+border: none;
+font-size: 18px;
+}
+
+.login-main{
+width: 65vw;
+height: 25vw;
+margin-left: 25.2%;
+margin-bottom: 2%;
+}
+
+.error-color{
+color: $main-error-text;
+}
+
+.label-login{
+outline: none;
+border: none;
+width: 250px;
+height: 30px;
+border: 2px solid $side-nav-border;
+background-color: $side-nav-color;
+color: $green-main-color;
+border-radius: 4px;
+}

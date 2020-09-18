@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+.forsidefetchwrap {
+  padding-left: 24%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.forsidefetchwrap .forside-grid-items {
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.514);
+  padding: 20px;
+  font-size: 10pt;
+  display: block;
+  width: 70%;
+}
+
+.forsidefetchwrap .forside-grid-items figure {
+  position: relative;
+  padding: 20%;
+  margin-bottom: 10%;
+  width: 60%;
+  background-color: white;
+  margin: 0;
+}
+
+.forsidefetchwrap .forside-grid-items figure img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 100%;
+  background: white;
+}
+
+.forsidefetchwrap .forside-grid-items .fpbuy {
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2%;
+  cursor: pointer;
+  outline: none;
+  background-color: #D10061;
+}
+
+.forsidefetchwrap .forside-grid-items .grid-header {
+  color: white;
+  font-size: 16px;
+}
+
+.forsidefetchwrap .forside-grid-items .img-scale {
+  max-height: 250px;
+  padding: 30px;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.forsidefetchwrap .forside-grid-items .product-title {
+  text-align: left;
+  display: inline;
+}
+
+.forsidefetchwrap .forside-grid-items .direct-link {
+  text-decoration: none;
+  color: #00F9B6;
+}
+
+@media screen and (max-width: 992px) {
+  .forsidefetchwrap {
+    padding-left: 25%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .forside-grid-items {
+    display: block;
+    width: 100%;
+  }
+  .forside-grid-items figure {
+    padding: 20%;
+    margin-bottom: 10%;
+    width: 60%;
+  }
+  .forside-grid-items figure img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=ForsideFetch.css.map */

@@ -1,0 +1,63 @@
+// Utilities
+@import "../utilities/named_variables";
+
+.together{
+position: relative;
+margin-left: 2vw;
+
+}
+.searchfield{
+display: inline;
+position: absolute;
+top: 7.7%;
+left: 71%;
+z-index: 100;
+width: 9vw;
+height: 2vw;
+border-radius: 5px;
+font-size: 1vw;
+outline: none;
+border: none;
+border: 2px solid $side-nav-border;
+background-color: $side-nav-color;
+color: $green-main-color;
+border-radius: 4px;
+margin-top: 2%;
+}
+
+.searchbutton{
+display: inline;
+width: 3vw;
+height: 2.2vw;
+position: absolute;
+right: 16%;
+top: 7.8%;
+z-index: 200;
+border-radius: 5px;
+display: block;
+background-color: $green-main-color;
+cursor: pointer;
+outline: none;
+border: none;
+font-size: 18px;
+margin-top: 2%;
+}
+
+.arrow {
+border: solid $main-bg-color;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+}
+
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 992px) {
+
+.searchbutton{
+display: none;
+}
+}

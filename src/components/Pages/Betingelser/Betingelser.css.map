@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CAOb;;AATD,AAIA,YAJY,CAIZ,EAAE,CAAA;EACF,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,EAAE;EACd,aAAa,EAAE,EAAE;CAChB",
+    "sources": [
+        "Betingelser.scss"
+    ],
+    "names": [],
+    "file": "Betingelser.css"
+}

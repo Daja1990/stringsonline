@@ -1,0 +1,27 @@
+.errorwrapper{
+width: 50%;
+margin: 0 auto;
+margin-left: 35%;
+margin-top: 5%;
+}
+
+.fourofour{
+width: 40vw;
+padding-top: 5%;
+border-radius: 100%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .errorwrapper{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-top: 5%;
+    }
+
+    .fourofour{
+    margin-left: 20%;
+    }
+
+}

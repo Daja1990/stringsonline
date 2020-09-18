@@ -1,0 +1,43 @@
+// Utilities
+@import "../utilities/named_variables.scss";
+
+.footerdiv{
+padding-top: 10%;
+
+}
+footer{
+background: $footer-bg-color;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.footerimg{
+margin-top: 3%;
+width: 50vh;
+margin-left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 992px) {
+
+.footerdiv{
+padding-top: 20%;
+}
+
+.footerimg{
+margin-top: 8%;
+}
+}
+
+@media screen and (max-width: 450px) {
+
+.footerdiv{
+padding-top: 25%;
+}
+
+.footerimg{
+width: 35vh;
+margin-top: 5%;
+}
+}

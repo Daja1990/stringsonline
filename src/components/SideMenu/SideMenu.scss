@@ -1,0 +1,66 @@
+// Utilities
+@import "../utilities/named_variables.scss";
+
+.menuwrapper{
+margin-left: 10%;
+width: 13vw;
+min-height: 30vh;
+height: auto;
+background-color: $side-nav-color;
+color: $green-main-color;
+border: 2px solid $side-nav-border;
+position: absolute;
+top: 270px;
+cursor: pointer;
+margin-bottom: 10%;
+
+p{
+margin-left: 15%;
+margin-bottom: 2%;
+font-size: 1vw;
+}
+
+a{
+text-decoration: none;
+}
+
+.ul-push{
+margin-bottom: 15%;
+}
+
+li{
+margin-left: 25%;
+color: $green-main-color;
+font-size: 0.7vw;
+
+
+&:hover{
+color: $main-text-color;
+}
+}
+}
+
+.extra-push{
+margin-left: 5%;
+}
+
+.div-inline{
+margin: -20px;
+}
+
+.guitar-inline{
+margin-top: -10%;
+margin-bottom: 2%;
+}
+
+@media screen and (max-width: 992px) {
+
+.menuwrapper{
+display: none;
+}
+
+li{
+font-size: 1.5vw !important;
+margin-top: 1%;
+}
+}

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+.center-txt {
+  text-align: center;
+}
+
+.breadcrumbs {
+  width: 80%;
+  margin: 0 auto;
+  color: green;
+  padding: 5px;
+  text-align: left;
+  border-top: 1px solid #393939;
+  border-bottom: 1px solid #393939;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+}
+
+.infoboard {
+  width: 65vw;
+  height: 25vw;
+  background-color: #2C3737;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+  margin-left: 25.2%;
+  margin-bottom: 2%;
+}
+
+.infoboard h2 {
+  text-align: center;
+  padding: 20px;
+  font-weight: normal;
+}
+
+.headerimg {
+  width: 35vw;
+  height: 25vw;
+}
+
+.headertxt {
+  font-size: 1vw;
+}
+
+.linewrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-top: 1px solid  grey;
+  border-bottom: 1px solid grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.readmore {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 8vw;
+  height: 3vw;
+  font-size: 1.2vw;
+  border-radius: 25px;
+  background-color: #00F9B6;
+  cursor: pointer;
+  border: none;
+}
+
+.forside-header {
+  padding-left: 25%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 992px) {
+  .infoboard {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    width: 70vw;
+    height: 60vw;
+    margin: 0 auto;
+  }
+  .infoboard h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3.5vw;
+  }
+  .infoboard h3 {
+    font-size: 2vw;
+    margin-bottom: -4%;
+  }
+  .forside-header {
+    text-align: center;
+    padding: 0;
+    margin-top: 3%;
+  }
+  .readmore {
+    width: 12vw;
+    height: 4.5vw;
+    font-size: 1.4vw;
+    margin-top: 4% !important;
+    margin-bottom: 4% !important;
+    display: block;
+    margin: 0 auto;
+  }
+  .headerimg {
+    width: 70vw;
+    height: 25vw;
+  }
+}
+/*# sourceMappingURL=Forside.css.map */

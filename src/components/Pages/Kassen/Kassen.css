@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+.checkoutwrap {
+  width: 65%;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.checkoutwrap input {
+  display: inline;
+  width: 15vw;
+  height: 3vw;
+  border-radius: 5px;
+  font-size: 1vw;
+  outline: none;
+  border: none;
+  border: 2px solid #1F5E5B;
+  background-color: #0A1D1C;
+  color: #00F9B6;
+  border-radius: 4px;
+  margin-top: 2.8%;
+}
+
+.formheader {
+  margin-right: 40%;
+  margin-bottom: 5%;
+}
+
+.checkoutgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 23% 23%;
+      grid-template-columns: 33% 23% 23%;
+}
+
+.errormsg {
+  color: #D10061;
+}
+
+.post-button {
+  width: 9vw;
+  height: 3vw;
+  border-radius: 5px;
+  background-color: #00F9B6;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 992px) {
+  .checkoutwrap {
+    width: 25%;
+    text-align: center;
+    padding-left: 25%;
+  }
+  .formheader {
+    margin-right: -100%;
+  }
+  .post-button {
+    margin-top: 5%;
+    width: 15vw;
+    height: 6vw;
+    font-size: 3vw;
+  }
+  .checkoutgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .checkoutgrid input {
+    display: block;
+    width: 55vw;
+    height: 6vw;
+    margin-top: 10%;
+    margin-top: 10%;
+    font-size: 2.2vw;
+  }
+}
+/*# sourceMappingURL=Kassen.css.map */

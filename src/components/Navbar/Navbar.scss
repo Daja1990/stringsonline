@@ -1,0 +1,184 @@
+// Utilities
+@import "../utilities/named_variables";
+
+nav{
+color: $nav-text-color;
+font-size: 1vw;
+position: absolute;
+top: 1%;
+width: 100%;
+z-index: 100;
+font-family: $font-family;
+font-weight: 300;
+
+a{
+text-decoration: none;
+color: $main-text-color;
+}
+
+ul{
+text-align: center;
+}
+}
+
+li{
+display: inline;
+color: $nav-text-color;
+}
+
+nav li{
+padding-left: 30px;
+display: inline;
+padding-right: 20px;
+}
+
+.navpush{
+padding-bottom: 120px;
+}
+
+.full-nav{
+position: absolute;
+}
+
+.nav-login{
+width: 6vw;
+height: 2vw;
+margin-left: 8vw;
+border-radius: 5px;
+background-color: $green-main-color;
+cursor: pointer;
+outline: none;
+border: none;
+font-size: 18px;
+}
+
+.navtext{
+font-family: $font-family;
+font-size: 1vw;
+height: 2.3vw;
+margin-top: 1%;
+display: inline-block;
+padding-right: 25px;
+}
+
+.text-block{
+width: 100%;
+text-align: right;
+}
+
+.nav-img{
+display: inline;
+position: absolute;
+width: 60vw;
+top: 20%;
+left: 10%;
+z-index: -100;
+}
+
+.icons{
+width: 20px;
+height: 20px;
+padding-right: 15px;
+}
+
+.burger-nav{
+display: none;
+}
+
+// Burger Menu CSS 
+
+@media screen and (max-width: 992px) {
+
+.full-nav{
+display: none;
+}
+
+.searchfield{
+display: none !important;
+}
+
+.burger-nav{
+display: block;
+}
+
+#page-wrap {
+text-align: center;
+overflow: auto;
+top: 45%;
+position: relative;
+}
+
+.bm-item {
+display: inline-block;
+outline: none;
+text-decoration: none;
+margin-bottom: 10px;
+color: #d1d1d1;
+transition: color 0.2s;
+}
+
+.bm-item:hover {
+color: $main-text-color;
+}
+
+.bm-burger-button {
+position: fixed;
+width: 36px;
+height: 30px;
+right: 10px;
+top: 10px;
+z-index: 1;
+}
+
+.bm-burger-bars {
+background: $nav-text-color;
+}
+
+.bm-cross-button {
+height: 24px;
+width: 24px;
+z-index: 2000;
+}
+
+.bm-cross {
+background: $nav-text-color;
+}
+
+.bm-menu {
+background: $nav-mobile-color;
+}
+
+.bm-morph-shape {
+fill: #373a47;
+}
+
+.bm-item-list {
+color: #b8b7ad;
+}
+
+.bm-overlay {
+background: rgba(0, 0, 0, 0.3);
+}
+
+.burger-nav{
+color: white;
+font-weight: 300;
+}
+
+.burger-nav li{
+
+text-align: center;
+margin: 2%;
+font-size: 1.2vw;
+}
+
+.sidebar-move{
+margin-top: 3vw;
+padding-top: 3%;
+display: block !important;
+}
+
+.navpush{
+padding-bottom: 20px;
+}
+}

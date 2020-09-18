@@ -1,0 +1,120 @@
+// Utilities
+@import "../../utilities/named_variables";
+
+.center-txt{
+text-align: center;
+}
+
+.breadcrumbs{
+width: 80%;
+margin: 0 auto;
+color: green;
+padding: 5px;
+text-align: left;
+border-top: 1px solid  $footer-bg-color;
+border-bottom: 1px solid $footer-bg-color;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+
+.icons{
+width: 20px;
+height: 20px;
+}
+
+.infoboard{
+width: 65vw;
+height: 25vw;
+background-color: #2C3737;
+display: grid;
+grid-template-columns: 55% 45%;
+margin-left: 25.2%;
+margin-bottom: 2%;
+
+h2{
+text-align:center;
+padding: 20px;
+font-weight: normal;
+}
+}
+
+.headerimg{
+width: 35vw;
+height: 25vw;
+}
+
+.headertxt{
+font-size: 1vw;
+}
+
+.linewrap{
+width: 80%;
+margin: 0 auto;
+margin-top: 10%;
+border-top: 1px solid  grey;
+border-bottom: 1px solid grey;
+}
+
+.bold{
+font-weight: bold;
+}
+
+.readmore{
+margin-top: 5%;
+margin-left: 10%;
+width: 8vw;
+height: 3vw;
+font-size: 1.2vw;
+border-radius: 25px;
+background-color: $green-main-color;
+cursor: pointer;
+border: none;
+}
+
+.forside-header{
+padding-left: 25%;
+margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 992px) {
+
+.infoboard{
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+width: 70vw;
+height: 60vw;
+margin: 0 auto;
+
+h2{
+padding-top: 1%;
+padding-bottom: 1%;
+font-size: 3.5vw;
+}
+
+h3{
+font-size: 2vw;
+margin-bottom: -4%;
+}
+}
+
+.forside-header{
+text-align: center;
+padding: 0;
+margin-top: 3%;
+}
+
+.readmore{
+width: 12vw;
+height: 4.5vw;
+margin-top: 4% !important;
+margin-bottom: 4% !important;
+display: block;
+margin: 0 auto;
+}
+
+.headerimg{
+width: 70vw;
+height: 25vw;
+}
+}

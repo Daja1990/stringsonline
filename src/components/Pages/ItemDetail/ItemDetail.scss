@@ -1,0 +1,95 @@
+// Utilities
+@import "../../utilities/named_variables.scss";
+
+.main-wrap{
+padding-left: 30%;
+
+.grid-items{
+border:1px solid rgba(255, 255, 255, 0.11);
+display: grid;
+grid-template-columns: 1fr 2fr;
+margin-bottom: 20px;
+color: rgba(255, 255, 255, 0.514);
+padding: 20px;
+font-size: 10pt;
+width: 60%;
+
+.grid-header{
+color:white;
+font-size: 16px;
+}
+
+.buybuttons{
+width: 100px;
+height: 30px;
+color: $button-txt-color;
+border: none;
+border-radius: 5px;
+margin-top: 2%;
+cursor: pointer;
+outline: none;
+background-color: $button-pink-color;
+}
+
+.img-scale{
+max-height: 250px;
+padding: 30px;
+background: $figure-bg-color;
+box-sizing: border-box;
+width: 100%;
+}
+
+.product-title{
+text-align: left;
+display: inline;
+}
+
+.direct-link{
+text-decoration: none;
+color: $green-main-color;
+}
+
+article{
+padding-left:25px;
+    }
+}
+}
+
+figure{
+position: relative;
+width: 200px;
+background-color: $figure-bg-color;
+margin:0;
+    img {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    background:$figure-bg-color;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .main-wrap{
+    padding-left: 5%;
+    }
+    .grid-items{
+    display: block !important;
+    width: 90% !important;
+
+    figure{
+    padding: 20%;
+    margin-bottom: 10%;
+     width: 60%;
+        img{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+    }
+}

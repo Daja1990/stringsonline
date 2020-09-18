@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+.menuwrapper {
+  margin-left: 10%;
+  width: 13vw;
+  min-height: 30vh;
+  height: auto;
+  background-color: #0A1D1C;
+  color: #00F9B6;
+  border: 2px solid #1F5E5B;
+  position: absolute;
+  top: 270px;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+.menuwrapper p {
+  margin-left: 15%;
+  margin-bottom: 2%;
+  font-size: 1vw;
+}
+
+.menuwrapper a {
+  text-decoration: none;
+}
+
+.menuwrapper .ul-push {
+  margin-bottom: 15%;
+}
+
+.menuwrapper li {
+  margin-left: 25%;
+  color: #00F9B6;
+  font-size: 0.7vw;
+}
+
+.menuwrapper li:hover {
+  color: white;
+}
+
+.extra-push {
+  margin-left: 5%;
+}
+
+.div-inline {
+  margin: -20px;
+}
+
+.guitar-inline {
+  margin-top: -10%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 992px) {
+  .menuwrapper {
+    display: none;
+  }
+  nav ul {
+    font-size: 2vh;
+  }
+}
+/*# sourceMappingURL=SideMenu.css.map */
