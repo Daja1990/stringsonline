@@ -1,3 +1,6 @@
+Svendeprøve september 2020. Lavet med React. Arbejde med API udtræk og visning, errorhandling.
+
+----------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
